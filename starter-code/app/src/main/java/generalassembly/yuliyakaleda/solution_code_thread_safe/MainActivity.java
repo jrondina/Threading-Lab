@@ -106,8 +106,8 @@ public class MainActivity extends AppCompatActivity{
 
           mutableBitmap.setPixel(i,j,Color.rgb(
                   reverseColor(Color.red(pxl)),
-                  reverseColor(Color.blue(pxl)),
-                  reverseColor(Color.green(pxl))
+                  reverseColor(Color.green(pxl)),
+                  reverseColor(Color.blue(pxl))
                   ));
         }
         int progressVal = Math.round((long) (100*(i/(1.0*mutableBitmap.getWidth()))));
